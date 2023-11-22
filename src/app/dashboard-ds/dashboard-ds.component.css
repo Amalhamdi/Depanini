@@ -1,0 +1,78 @@
+body {
+    padding-top: 56px; 
+    margin: 0; /* Remove default margin */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-icons {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-icons i {
+    margin-left: 10px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.header .input-group {
+    width: 70%; /* Adjust the width as needed */
+}
+
+.header input {
+    border-radius: 0; /* Optional: Remove rounded corners */
+}
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 56px; 
+    left: 0;
+    background-color: #f8f9fa;
+    padding-top: 20px;
+
+  /* background-color: black;  Set the background color to black */
+    color:black; /* Set the text color to white */
+}
+
+.sidebar img {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+
+
+/********************************/
+
+/* Sidebar */
+
+.sidebar ul li {
+    border-bottom: 1px solid #080808;
+}
+
+.sidebar ul li a {
+    color:black; 
+    font-family: 'Lucida Sans Unicode', Verdana, sans-serif;
+}
